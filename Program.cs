@@ -25,6 +25,7 @@ namespace YIUCompressTest
             {
                 jsCompr.Compress(js);
                 Console.WriteLine("Your script is fine!");
+                Console.WriteLine("Press Enter to exit");
                 Console.ReadLine();
             }
             catch (EcmaScriptRuntimeException e)
